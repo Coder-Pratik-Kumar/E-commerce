@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+    background-image: url(https://static.wixstatic.com/media/84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.png/v1/fill/w_1899,h_1024,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_93b300330b3742f2b1948ef292a91f27~mv2_d_1920_1279_s_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    position: relative;
+}
+header{
+    position: fixed;
+    width:100%;
+    height:100px;
+    background: black;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    opacity: 0.6;
+}
+header h2{
+    font-size: 50px;
+    color: grey;
+}
+header span{
+    font-size: 50px;
+    color: white;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    margin-left: 250px;
+    font-size: 18px;
+    
+}
+header ul li{
+    color:grey;
+    margin: 8px;
+    font-weight: bold;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid grey;
+    color: white;
+    margin-left: 10px; 
+  }
+  
+  .search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .search-input::placeholder {
+    color: #ccc; 
+  }
+  .search-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .login{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left:20px;
+  }
+  .login img{
+    height: 25px;
+    width: 25px;
+  }
+  .login h4{
+    margin-left: 10px;
+  }
+  .shoppingtrolley{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+  .shoppingtrolley img{
+    height: 30px;
+    width: 30px;
+  }
+  .shoppingtrolley h4{
+    color: white;
+    margin-left: 10px;
+  }
+.plan_your_adventre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large; 
+    white-space: nowrap;
+    text-align: center;
+}
+.shop{
+    position: absolute; /* Positions the .shop element relative to the viewport */
+    top: 50%; /* Moves it 50% down the viewport */
+    left: 50%; /* Moves it 50% from the left of the viewport */
+    transform: translate(-50%, -50%); /* Centers the element by shifting it back */
+    display: grid;
+    place-content: center; 
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop h2 {
+   border: 2px solid white;
+   padding: 15px;
+   text-align: center;
+   transition: 0.3s linear;
+   -webkit-transition: 0.3s linear;
+   -moz-transition: 0.3s linear;
+   -ms-transition: 0.3s linear;
+   -o-transition: 0.3s linear;
+}
+.shop h2:hover{
+    background-color: white;
+    color: black;
+}
+.shop img{
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    margin-top: 50px;
+}
+.classy_images{
+    display: flex;
+    height: 200px;
+    background-color: black;
+}
+
