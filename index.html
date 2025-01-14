@@ -7,40 +7,92 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h2>THE<span>NORTHPOLE</span></h2>
-        <div class="menu_container">
-            <ul>
-                <li>SHOP</li>
-                <li>ABOUT</li>
-                <li>GROUPS</li>
-                <li>CONTACT</li>
-            </ul>
+    <div class="container">
+        <header>
+            <h2>THE<span>NORTHPOLE</span></h2>
+            <div class="menu_container">
+                <ul>
+                    <li>SHOP</li>
+                    <li>ABOUT</li>
+                    <li>GROUPS</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+                <button class="search-btn">
+                  <i class="icon">🔍</i>
+                </button>
+              </div>
+              <div class="login">
+                <img src="./images/login.png"><h4>LOGIN</h4>
+              </div>
+              <div class="shoppingtrolley">
+                <img src="./images/trolley.png">
+                <h4>0</h4>
+              </div>
+        </header>
+        <div class="plan_your_adventre">
+            <h1>PLAN YOUR ADVENTURE</h1>
         </div>
-        <div class="search-container">
-            <input type="text" placeholder="Search..." class="search-input">
-            <button class="search-btn">
-              <i class="icon">🔍</i>
-            </button>
-          </div>
-          <div class="login">
-            <img src="./images/login.png"><h4>LOGIN</h4>
-          </div>
-          <div class="shoppingtrolley">
-            <img src="./images/trolley.png">
-            <h4>0</h4>
-          </div>
-    </header>
-    <div class="plan_your_adventre">
-        <h1>PLAN YOUR ADVENTURE</h1>
+        <div class="shop">
+            <h2>SHOP NOW</h2>
+            <a href="#classyimages"><img src="./images/arrow-down-sign-to-navigate.png" ></a>
+        </div>
     </div>
-    <div class="shop">
-        <h2>SHOP NOW</h2>
-        <a href="#"><img src="./images/arrow-down-sign-to-navigate.png" ></a>
-    </div>
-
-    <div class="classy_images">
+    <div class="classy_images" id="classyimages">
         <div class="new_arrival">
+            <h2 id="newarrival">NEW ARRIVALS</h2>
+            <h2 id="shop">SHOP NOW</h2>
+        </div>
+        <div class="image">
+            <img src="https://static.wixstatic.com/media/84770f_93b2185955e84e4fbeeecad36c77fedc~mv2_d_1920_1920_s_2.png/v1/fill/w_951,h_903,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_93b2185955e84e4fbeeecad36c77fedc~mv2_d_1920_1920_s_2.png" >
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="gallyImages">
+            <div class="image-container">
+                <img src="https://static.wixstatic.com/media/84770f_e49a913c82e649c6baeba8a5c47d0d66~mv2.png/v1/fit/w_288,h_216,q_90/84770f_e49a913c82e649c6baeba8a5c47d0d66~mv2.webp">
+                <div class="content">
+                    <h3>BACKPACKS</h3>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://static.wixstatic.com/media/84770f_7bcdce49085a490d854be61aa7e915fa~mv2.png/v1/fit/w_288,h_216,q_90/84770f_7bcdce49085a490d854be61aa7e915fa~mv2.webp">
+                <div class="content">
+                    <h3>DUFFLE BAGS</h3>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="https://static.wixstatic.com/media/84770f_0bb54c0f9e5b4974af6535184ea7aca6~mv2.png/v1/fit/w_288,h_216,q_90/84770f_0bb54c0f9e5b4974af6535184ea7aca6~mv2.webp">
+                <div class="content">
+                    <h3>TRAVEL PACKS</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Bags">
+        <div class="bags_container">
+            <div class="image_container_bags">
+                <img src="./images/bag1.png">
+                <div class="category1">
+                    <h2>CANVAS BACKPACK</h2>
+                </div>
+            </div>
+            
+            <div class="image_container_bags">
+                <img src="./images/bag2.png">
+                <div class="category2">
+                    <h2>TECHNICAL BACKPACK</h2>
+                </div>
+            </div>
+            
+            <div class="image_container_bags">
+                <img src="./images/bag3.png">
+                <div class="category3">
+                    <h2>CAMO BACKPACK</h2>
+                </div>
+            </div>
             
         </div>
     </div>
