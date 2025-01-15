@@ -263,3 +263,353 @@ html {
   margin: 20px;
   cursor: pointer;
 }
+.bags_container .category{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.image_container_bags hr{
+  border: 0;
+  width:20px;
+  height: 1px;
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.original-price {
+  text-decoration: line-through;
+  color: #ccc;
+  margin-right: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.discounted-price {
+  color: #fff;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.image_container_bags p{
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.category:hover .hover-overlay {
+  opacity: 1;
+}
+
+.view-details {
+  border: 2px solid white;
+  background: none;
+   padding: 15px;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   font-size: 25px;
+   transition: 0.3s linear;
+   -webkit-transition: 0.3s linear;
+   -moz-transition: 0.3s linear;
+   -ms-transition: 0.3s linear;
+   -o-transition: 0.3s linear;
+}
+.aboutus{
+  width:100%;
+  height:100vh;
+  background-image: url(./images/manback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.about_content{
+  height: 100%;
+  background-color: black;
+  width:40%;
+  opacity: 0.6;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.about_content h2{
+  font-size: 50px;
+  margin: 20px;
+  margin-left: 80px;
+}
+.about_content p{
+  font-size: 40px;
+  margin: 20px;
+  margin-left: 80px;
+}
+.contact{
+  width: 100%;
+  height:100vh;
+  background-color: black;
+  display: flex;
+}
+.contact_details{
+  width: 50%;
+  height: 100vh;
+  margin-left: 30px;
+}
+.contact_details .name{
+  display: flex;
+  margin:20px;
+  color: white;
+}
+.name .last_name{
+  margin-left: 10px;
+}
+.name .first_name input{
+background: transparent;
+border: 2px solid white;
+padding: 10px;
+color: white;
+}
+.name .last_name input{
+  background: transparent;
+border: 2px solid white;
+padding: 10px;
+color: white;
+}
+.contact_details .email {
+width:100%;
+margin: 20px;
+color: white;
+margin-top: 60px;
+}
+.email input{
+  width:100%;
+  background: transparent;
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+}
+.send{
+  color: white;
+  border: 2px solid white;
+  width:100px;
+  padding: 20px;
+  margin:20px;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left:270px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  cursor: pointer;
+  font-weight: bold;
+}
+.send:hover{
+  background-color: white;
+  color: black;
+}
+.contact_content{
+  color: white;
+  margin:20px;
+  margin-left: 180px;
+}
+.contact_content h2{
+  font-size: 60px;
+}
+.contact_content p{
+  font-size: 25px;
+}
+
+.last_section{
+  width:100%;
+  height:600px;
+  background-color: rgb(44, 41, 41);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe-section {
+  text-align: center;
+  padding: 50px;
+}
+.subscribe-section h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.subscribe-section p {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.subscribe-form {
+  margin-right: 120px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.subscribe-form label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-right: 120px;
+}
+
+.subscribe-form input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.subscribe-form input[type="email"]::placeholder {
+  color: #cccccc;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.checkbox-container label {
+  font-size: 18px;
+}
+
+.subscribe-form button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.subscribe-form button:hover {
+  background-color: white;
+  color: black;
+}
+.footer {
+  background-color: #1c1c1c;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer span {
+  color: #fff;
+}
+.social-media {
+  position: fixed;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 10px;
+  padding: 15px;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.social-media a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+}
+.social-media a:hover {
+  opacity: 0.7;
+}
+.social-media img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  opacity: 0.6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.chat-icon img {
+  color: #fff;
+  width: 24px;
+  height: 24px;
+}
+.chat-icon:hover {
+  background-color: #333;
+}
