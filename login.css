@@ -6,6 +6,10 @@ body{
     align-items: center;
     height: 100vh;
     background-color: black;
+    background-image: url(./images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .container{
     width:900px;
@@ -17,7 +21,8 @@ body{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    box-shadow: 5px 5px 10px rgb(248, 244, 244), -5px -5px 10px rgba(235, 235, 239, 0.934);
+    /* box-shadow: 5px 5px 10px rgb(248, 244, 244), -5px -5px 10px rgba(235, 235, 239, 0.934);
+} */
 }
 .container .content_image img {
     height:100%;
