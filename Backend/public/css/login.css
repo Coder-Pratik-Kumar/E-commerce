@@ -1,0 +1,114 @@
+body{
+    background-image: url(/images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+      height:auto;
+      width:auto;
+      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+      backdrop-filter: blur(10px); /* Blur effect */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      
+}
+
+.content{
+    color: white;
+}
+.content h4{
+    margin:10px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.content h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.content input{
+    width:500px;
+    padding: 10px;
+    margin:10px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content input::placeholder{
+    color: white;
+}
+#submit{
+    display: block;
+    margin: 50px auto;
+    border: 1px solid  black;
+    padding: 15px;
+    width:120px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 50px;
+}
+.content #forgot{
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-right: 30px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+#forgot:hover{
+    text-decoration: underline;
+    color: black;
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.registration a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.registration a:hover{
+    text-decoration: underline;
+    color: black;
+}
+ 

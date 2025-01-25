@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/SignUp.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>SIGN UP HERE! </h2>
+            <form id="SignupForm" action="/signup" method="post">
+                <h4>Name</h4>
+                <input type="text" id="text" placeholder="Enter your Name" name="name">
+                <h4>Mobile number</h4>
+                <input type="number" id="number" placeholder="Enter Your Mobile Number" name="Mob_Number" required>
+                <h4>Email</h4>
+                <input type="email" id="email" placeholder="Enter your email" name="email" required>
+                <h4>Password</h4>
+                <input type="password" id="password" placeholder="Enter your Password" name="password" required>
+                <h4>Re Enter Password</h4>
+                <input type="password" id="confirmpassword" placeholder="Enter the Password" name="confirmpassword" required>
+                <br>
+               <input type="submit" name="submitSignUp" id="submit">
+            </form>
+        </div>
+        <div class="google">
+            <img src="./images/google.png" alt="google">
+            <h5>SignUp With Google</h5>
+        </div>
+    </div>
+</body>
+</html>
